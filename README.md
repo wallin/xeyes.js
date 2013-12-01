@@ -1,6 +1,11 @@
-# Middleman template
+# xeyes.js
 
-## Heroku deployment
-Don't forget to add the middleman buildpack to your app
+A web version of the classic demo program made with jquery and [middleman](http://middlemanapp.com/). 
+Check out the coffeescript [source file](source/javascripts/all.js.coffee) for the implementation.
 
-    heroku config:add BUILDPACK_URL=http://github.com/indirect/heroku-buildpack-middleman.git
+## how to run
+
+    $ bundle install
+    $ middleman server
+    
+Then open up `localhost:4567`
